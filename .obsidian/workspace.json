@@ -13,28 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "kernel/running-linux_kernel_P01/P01_linux系统基础知识.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "P01_linux系统基础知识"
             }
           },
           {
-            "id": "a9454e62e05bda31",
+            "id": "105a10c73109583d",
             "type": "leaf",
             "state": {
-              "type": "mindmapview",
+              "type": "markdown",
               "state": {
-                "file": "驱动_mm.md"
+                "file": "kernel/running-linux_kernel_P01/P01_linux系统基础知识.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "驱动_mm"
+              "icon": "lucide-file",
+              "title": "P01_linux系统基础知识"
+            }
+          },
+          {
+            "id": "d00ef6c9b08e0ece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "appendix/kernel_model/Linux_kenel_组成/linux内核概貌.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "linux内核概貌"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,8 +123,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
-                "collapseAll": false,
+                "file": "appendix/kernel_model/Linux_kenel_组成/linux内核概貌.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -117,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "linux内核概貌 的反向链接列表"
             }
           },
           {
@@ -169,42 +185,75 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "appendix/kernel_model/Linux_kenel_组成/linux内核概貌.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "linux内核概貌 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a9454e62e05bda31",
+  "active": "d00ef6c9b08e0ece",
   "lastOpenFiles": [
-    "README.md",
-    "驱动_mm.md",
-    "内核_mm.md",
-    "test",
-    "欢迎.md"
+    "appendix/QEMU",
+    "appendix/Untitled Folder",
+    "kernel/running-linux_kernel_P01/P01_linux系统基础知识.md",
+    "appendix/operator_system_concept/宏内核和微内核.md",
+    "images/kernel/running_linux_kernel_P01/linux_kernel_component_archtecture.png",
+    "images/kernel/running_linux_kernel_P01",
+    "images/kernel/新建文件夹",
+    "appendix/kernel_model/Linux_日志/Linux_内核日志.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux_内核模块与设备节点操作入门.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux_驱动开发 Makefile 指南.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux_内核模块与设备节点操作基础.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux 驱动开发 Makefile 指南.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux 内核模块与设备节点操作基础.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点/Linux 内核模块与设备节点操作入门.md",
+    "appendix/kernel_model/Linux_内核模块与设备节点",
+    "appendix/kernel_model/Linux_日志/Linux 内核日志.md",
+    "appendix/kernel_model/Linux_日志",
+    "appendix/kernel_model/Linux_kenel_组成/linux内核概貌.md",
+    "appendix/kernel_model/Linux_kenel_组成/Untitled.md",
+    "appendix/kernel_model/Linux_kenel_组成",
+    "appendix/kernel_model/Untitled Folder",
+    "kernel/running-linux_kernel_P01/README.md",
+    "kernel/running-linux_kernel_P01/Untitled.md",
+    "paste.md",
+    "Untitled.md",
+    "board/nxp/porting/imx_v8_config_kernel编译说明.md",
+    "board/nxp/porting/Untitled.md",
+    "board/nxp/porting/imx6ull-移植u-boot-2025.04_and_kernel-6.1.md",
+    "board/nxp/porting",
+    "board/nxp/Untitled Folder",
+    "appendix/operator_system_concept/Untitled.md",
+    "appendix/operator_system_concept",
+    "appendix/kernel_model/Linux_kernel_目录结构说明/Linux_kernel_目录结构说明.md",
+    "appendix/kernel_model/Linux_kernel_目录结构说明.md",
+    "appendix/kernel_model/Untitled.md",
+    "images/kernel/nxp/kernel_config_cross_compiler_for_makefile.png",
+    "driver/P00 - 驱动框架模型/P01-驱动框架模型.md",
+    "kernel/running-linux_kernel_P01/P01.md"
   ]
 }
