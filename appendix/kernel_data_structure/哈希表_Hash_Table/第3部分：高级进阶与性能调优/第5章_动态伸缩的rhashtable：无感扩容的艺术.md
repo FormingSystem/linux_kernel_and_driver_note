@@ -569,7 +569,7 @@ restart:
 
 #### 5. 逻辑流程总结
 
-```Mermaid
+```mermaid
 graph TD
     A[开始查找] --> B(读取旧表 tbl)
     B --> C{桶指针 Bit 0 == 1 ?}
