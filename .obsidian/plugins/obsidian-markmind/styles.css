@@ -1297,7 +1297,7 @@ th {
     font-size: 16px;
     width: 8000px;
     height: 8000px;
-    transition: all 0.15s linear;
+    transition: all 0.05s linear;
 
 }
 
@@ -2616,9 +2616,10 @@ th {
     box-shadow: 0 0 0 #fff;
 }
 
-.mm-mobile-app .mm-node .mm-node-content {
+/* .mm-mobile-app .mm-node .mm-node-edit,
+.mm-mobile-app .mm-node .cm-node-text {
     max-width: 400px;
-}
+} */
 
 .mm-note {
     position: absolute;
@@ -3341,6 +3342,41 @@ th {
     cursor: pointer;
 }
 
+.mm-embed-link {
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    background-color: #333;
+    border: 1px solid #000;
+    border-radius: 3px;
+    z-index: 1000;
+    cursor: pointer;
+    color: #666;
+
+}
+
+.mm-embed-link div {
+    width: 90px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm-embed-link div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.mm-embed-link div span svg {
+    fill: #666;
+}
+
 /* .mm-link-menu:before {
     width: 0;
     height: 0;
@@ -3364,6 +3400,10 @@ th {
 
 .theme-light .mm-link-menu svg {
     fill: #333;
+}
+
+.mm-node:hover .mm-node-cover {
+    display: none;
 }
 
 /* 遮挡文字节点 */

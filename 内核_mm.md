@@ -1,3 +1,0 @@
----
-mindmap-plugin: rich
----
